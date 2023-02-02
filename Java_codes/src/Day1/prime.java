@@ -18,7 +18,7 @@ public class prime {
 	public static void main(String[] args) {
 
 		prime pr = new prime();
-		int a = 55;
+		int a = 3;
 		System.out.println(pr.prim(a));
 	}
 }

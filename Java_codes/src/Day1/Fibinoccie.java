@@ -16,24 +16,21 @@ public class Fibinoccie {
 		}
 
 	}
-	public int fibinocRecursion(int num)
-	{
-		if(num<=1)
-		{
+
+	public int fibinocRecursion(int num) {
+		if (num <= 1) {
 			return num;
-			
+
 		}
-		return fibinocRecursion(num-1)+fibinocRecursion(num-2);
+		return fibinocRecursion(num - 1) + fibinocRecursion(num - 2);
 	}
 
 	public static void main(String[] args) {
 		Fibinoccie fib = new Fibinoccie();
 		fib.fibinoc(10);
 
-		
-		for(int i =0;i<10;i++)
-		{
-		System.out.println(fib.fibinocRecursion(i));
+		for (int i = 0; i < 10; i++) {
+			System.out.println(fib.fibinocRecursion(i));
 		}
 
 	}
