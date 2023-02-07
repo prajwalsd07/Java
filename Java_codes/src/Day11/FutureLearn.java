@@ -27,7 +27,7 @@ public class FutureLearn {
 		
 		List<Future> list = new ArrayList<>();
 		for(int i =0;i<14;i++) {
-		Future<Integer> future = exe.submit(call);
+		Future<?> future = exe.submit(call);  // we can use ? when we dont know return type
 		list.add(future);
 	}
 		for(Future f : list)
