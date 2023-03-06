@@ -1,0 +1,19 @@
+
+µ
+java:S1598"…This file "Game.java" should be located in "com\demo\templatemethod" directory, not in "D:\Java\Java_codes\src\Day13\templatemethod".(¢‘ŞÚH€RCRITICALZ
+CODE_SMELL
+`
+java:S1610"4Convert the abstract class "Game" into an interface.(ãîôËHRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ú‚ùÓH‚RMAJORZ
+CODE_SMELL
+d	java:S106""9Replace this use of System.out or System.err by a logger.(ÿüÙãHƒRMAJORZ
+CODE_SMELL
+c	java:S106("9Replace this use of System.out or System.err by a logger.(ĞÚaH„RMAJORZ
+CODE_SMELL
+d	java:S1060"9Replace this use of System.out or System.err by a logger.(•­¶øH…RMAJORZ
+CODE_SMELL
+i	java:S1066"9Replace this use of System.out or System.err by a logger.(¿ÍâıÿÿÿÿH†RMAJORZ
+CODE_SMELL
+d	java:S106<"9Replace this use of System.out or System.err by a logger.(ñçŒÖH‡RMAJORZ
+CODE_SMELL

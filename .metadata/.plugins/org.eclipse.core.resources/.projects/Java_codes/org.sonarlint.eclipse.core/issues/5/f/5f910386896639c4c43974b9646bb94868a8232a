@@ -1,0 +1,10 @@
+
+∏
+java:S1598"àThis file "EmailMain.java" should be located in "com\demo\buildermethod" directory, not in "D:\Java\Java_codes\src\Day13\buildermethod".(íìﬁ–H‘RCRITICALZ
+CODE_SMELL
+e
+java:S1854"9Remove this useless assignment to local variable "email".(ı»ÿ≥H’RMAJORZ
+CODE_SMELL
+V
+java:S1481"*Remove this unused "email" local variable.(ı»ÿ≥H÷RMINORZ
+CODE_SMELL

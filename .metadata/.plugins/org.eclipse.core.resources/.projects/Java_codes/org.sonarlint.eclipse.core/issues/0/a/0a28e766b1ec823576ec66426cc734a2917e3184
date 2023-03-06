@@ -1,0 +1,12 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿHïRMAJORZ
+CODE_SMELL
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8üÕ´á0H‡RMINORZ
+CODE_SMELL
+q
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(÷„ô´şÿÿÿÿHğRMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(º­¸èHíRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(÷„ô´şÿÿÿÿHòRMAJORZ
+CODE_SMELL

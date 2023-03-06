@@ -1,0 +1,12 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8»¢Ù«â0HŸRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÜÔüÿÿÿÿHöRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¶ê8±’…’â0H‘RMAJORZ
+CODE_SMELL
+s
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¶ê8±’…’â0H’RMINORZ
+CODE_SMELL
+c
+java:S3958"2Refactor the code so this stream pipeline is used.(éöõúÿÿÿÿ8ÒÀí«â0H£RMAJORZBUG

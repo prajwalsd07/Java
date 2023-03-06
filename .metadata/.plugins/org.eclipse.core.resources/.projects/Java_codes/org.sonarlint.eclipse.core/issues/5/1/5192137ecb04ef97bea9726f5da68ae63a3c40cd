@@ -1,0 +1,13 @@
+
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(êû¦«şÿÿÿÿ8Æ‚…â0H¹RMAJORZ
+CODE_SMELL
+R
+java:S2119"Save and re-use this "Random".(µåİ‘øÿÿÿÿ8Æ‚…â0H¸RCRITICALZBUG
+g
+java:S3740!"/Provide the parametrized type for this generic.(‰›Çêıÿÿÿÿ8Æ‚…â0H¶RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ŠãHùRMINORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(Şµøÿÿÿÿ8Æ‚…â0H·RMAJORZ
+CODE_SMELL

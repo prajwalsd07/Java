@@ -1,0 +1,11 @@
+
+¼
+java:S1598"‡This file "BairMain.java" should be located in "com\demo\factorymethod" directory, not in "D:\Java\Java_codes\src\Day13\factorymethod".(æˆ‡ûÿÿÿÿHäRCRITICALZ
+CODE_SMELL
+i	java:S106	"9Replace this use of System.out or System.err by a logger.(ÿØúùÿÿÿÿHåRMAJORZ
+CODE_SMELL
+c
+java:S6126	"2Replace this String concatenation with Text block.(ÿØúùÿÿÿÿHæRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(‹ËóÛHçRMAJORZ
+CODE_SMELL

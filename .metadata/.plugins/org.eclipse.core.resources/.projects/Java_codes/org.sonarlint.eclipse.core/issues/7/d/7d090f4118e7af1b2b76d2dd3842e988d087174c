@@ -1,0 +1,35 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÀºşùÿÿÿÿHàRMAJORZ
+CODE_SMELL
+e
+java:S1612"9Replace this lambda with method reference 'Math::random'.(øĞ§HâRMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ±ÎùHÜRMINORZ
+CODE_SMELL
+ƒ
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ˆú¥ÿşÿÿÿÿHŞRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‰ãÖ€ÿÿÿÿÿHæRMAJORZ
+CODE_SMELL
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8úÕ´á0H„RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(«Õ¯‰HìRMAJORZ
+CODE_SMELL
+€
+java:S4276"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(øĞ§HáRMINORZ
+CODE_SMELL
+i	java:S106%"9Replace this use of System.out or System.err by a logger.(˜ò‚âùÿÿÿÿHéRMAJORZ
+CODE_SMELL
+q
+java:S1612%"@Replace this lambda with method reference 'System.out::println'.(˜ò‚âùÿÿÿÿHêRMINORZ
+CODE_SMELL
+q
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(‰ãÖ€ÿÿÿÿÿHçRMINORZ
+CODE_SMELL
+Š
+java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(í¼ ûûÿÿÿÿHåRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(±»²ıÿÿÿÿHäRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(•ØµHßRMAJORZ
+CODE_SMELL

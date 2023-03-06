@@ -1,0 +1,17 @@
+
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ğé8µıâ0HÔRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(°ÚıÒ8‡ª©‘â0HèRMAJORZ
+CODE_SMELL
+m
+java:S1854$"5Remove this useless assignment to local variable "s".(Ğéµ•ıÿÿÿÿ8èÑ¢‘â0HàRMAJORZ
+CODE_SMELL
+ƒ	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â¶î×8µıâ0HÓRMINORZ
+CODE_SMELL
+^
+java:S1481$"&Remove this unused "s" local variable.(Ğéµ•ıÿÿÿÿ8µıâ0HİRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ŠãHÍRMINORZ
+CODE_SMELL
+„	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áôÎûùÿÿÿÿ8µıâ0HÒRMINORZ
+CODE_SMELL

@@ -1,0 +1,20 @@
+package Day8;
+
+public class FirstDigit {
+
+	public int firstDigit(int num) {
+		while(num/10!=0)
+		{
+			num=num/10;
+		}
+	
+	return num;
+	}
+
+
+	public static void main(String[] args) {
+FirstDigit first =new FirstDigit();
+System.out.println(first.firstDigit(9746));
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Day10.Threads&apos; to &apos;ThreadsMain&apos;&#x0D;&#x0A;- Original project: &apos;Java_codes&apos;&#x0D;&#x0A;- Original element: &apos;Day10.Threads&apos;&#x0D;&#x0A;- Renamed element: &apos;Day10.ThreadsMain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Threads&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Day10{Threads.java[Threads" matchStrategy="1" name="ThreadsMain" qualified="false" references="true" similarDeclarations="false" stamp="1675524336206" textual="false" version="1.0"/>
+</session>
