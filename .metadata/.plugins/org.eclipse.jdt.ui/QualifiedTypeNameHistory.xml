@@ -18,4 +18,8 @@
     <fullyQualifiedTypeName name="Day11.Outside.inner"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Day11.Bigclass.InsideBig"/>
+    <fullyQualifiedTypeName name="Day16.PerfectSquare"/>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="Day16.Frequecy"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
 </qualifiedTypeNameHistroy>

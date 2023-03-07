@@ -1,0 +1,19 @@
+package Day16;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Frequency {
+
+	void freq(int[] a)
+	{
+	//set<Integer> s = new Hashset<>();
+	Set<String> hash_Set = new HashSet<String>();
+	}
+	public static void main(String[] args) {
+		Frequency freq = new Frequency();
+		int[] a = {1,2,2,3,1,5,2};
+		freq.freq(a);
+	}
+
+}

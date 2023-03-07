@@ -1,12 +1,14 @@
 package Day9;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
+
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+
+
 
 public class functional {
 
@@ -14,6 +16,7 @@ public class functional {
 		Predicate<Integer> p = k -> k > 10;
 
 		System.out.println(p.test(11));
+		
 
 		Consumer<String> c = s -> System.out.println(s.length());
 		c.accept("suraj");

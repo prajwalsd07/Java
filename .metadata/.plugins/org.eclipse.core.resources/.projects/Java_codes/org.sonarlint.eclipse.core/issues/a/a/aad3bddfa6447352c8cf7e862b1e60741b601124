@@ -1,9 +1,0 @@
-
-v	java:S112"FDefine and throw a dedicated exception instead of using a generic one.( ßÿüÿÿÿÿHôRMAJORZ
-CODE_SMELL
-¿
-java:S1598"ŠThis file "BirdFactory.java" should be located in "com\demo\factorymethod" directory, not in "D:\Java\Java_codes\src\Day13\factorymethod".(æˆ‡ûÿÿÿÿHõRCRITICALZ
-CODE_SMELL
-k
-java:S1118":Add a private constructor to hide the implicit public one.(ÜãËãşÿÿÿÿHöRMAJORZ
-CODE_SMELL

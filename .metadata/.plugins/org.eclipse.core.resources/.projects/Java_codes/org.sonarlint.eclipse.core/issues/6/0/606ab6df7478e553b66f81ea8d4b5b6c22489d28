@@ -1,0 +1,10 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷™ø0H¼RMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(È´’Óûÿÿÿÿ8‚Áñ­ë0HîRMINORZ
+CODE_SMELL
+s	java:S125	"<This block of commented-out lines of code should be removed.(ƒˆÞêùÿÿÿÿ8‚Áñ­ë0HãRMAJORZ
+CODE_SMELL
+Š	java:S116"SRename this field "hash_Set" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È´’Óûÿÿÿÿ8Ð§÷­ë0HðRMINORZ
+CODE_SMELL

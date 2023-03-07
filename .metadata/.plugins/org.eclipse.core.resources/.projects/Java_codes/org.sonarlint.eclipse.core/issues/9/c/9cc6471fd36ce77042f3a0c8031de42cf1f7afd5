@@ -1,0 +1,6 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷™ø0HµRMINORZ
+CODE_SMELL
+Œ
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(„úßº8¥Ú¨­ë0H¾RMINORZ
+CODE_SMELL

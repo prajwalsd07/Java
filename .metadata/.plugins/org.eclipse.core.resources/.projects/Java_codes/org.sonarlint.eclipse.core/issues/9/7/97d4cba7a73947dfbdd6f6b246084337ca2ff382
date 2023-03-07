@@ -1,5 +1,5 @@
 
-x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»îÎÌHóRMINORZ
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8ıÕ´á0HĞRMINORZ
 CODE_SMELL
-Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8ıÕ´á0HˆRMINORZ
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»îÎÌHÑRMINORZ
 CODE_SMELL
