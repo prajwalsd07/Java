@@ -1,0 +1,12 @@
+package Day17;
+
+public class RemoveWhiteSpaces {
+
+	public static void main(String[] args) {
+String str = "   hello my world  ";
+System.out.println(str.strip());
+System.out.println(str.trim());
+System.out.println(str.replace(" ", ""));
+	}
+
+}

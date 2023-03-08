@@ -1,0 +1,33 @@
+package Day17;
+import java.util.*;
+public class minmaxcharactersinstring {
+void minmax(String str)
+{
+	char[] ch = str.toCharArray();
+	Set<Character> set = new TreeSet<>();
+	int i=0;
+	while(i<ch.length)
+	{
+		set.add(ch[i]);
+		i++;
+	}
+	List<Character> list = new ArrayList<>(set);
+	
+	int[] count = new int[set.size()];
+	
+	for(int j=0;j<set.size();j++)
+	{int flag=0;
+		for(int k=0;k<str.length();k++)
+		{
+			if(list.get(j)==str.charAt(k))
+			{
+				flag++;
+			}
+		}
+		count[j]=flag;
+	}
+ }
+	public static void main(String[] args) {
+	}
+
+}

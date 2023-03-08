@@ -10,12 +10,9 @@ void thirdlarge(int[] a)
 	
 	List<Integer> list = new ArrayList<>(set);
 	System.out.println(list.get(list.size()-3));
-	
-	//System.out.println(set);
 }
 	public static void main(String[] args) {
 		ThirdLarge third = new ThirdLarge()
 ;int[] a = {5,2,3,1,6};
 	third.thirdlarge(a);}
-
 }
