@@ -1,7 +1,6 @@
 package Day17;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class RemoveWhiteSpaces {
 
@@ -19,8 +18,8 @@ String str1 = "hello my world";
 String[] spli = str1.split(" ");
 
 System.out.println(Arrays.toString(spli));
-Scanner sc=new Scanner(System.in);
-
+int x;
+System.out.println(x);
 	}
 
 }

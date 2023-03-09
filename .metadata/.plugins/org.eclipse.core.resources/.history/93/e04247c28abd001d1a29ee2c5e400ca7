@@ -1,0 +1,24 @@
+package Day18;
+
+class car {
+	int speed;
+	int size;
+	int cost;
+
+	String getdetails(int speed) {
+		if(speed>50)
+		{
+			return "toofast";
+		}
+		return "safe";
+
+	}
+}
+
+public class SaticExapmle {
+
+	public static void main(String[] args) {
+
+	}
+
+}
