@@ -1,0 +1,19 @@
+package Day19;
+
+abstract class car {
+	public abstract String speed(int n);
+	public String size()
+	{
+		return "6 meter";
+	}
+	
+}
+public  class AbstractClass {
+
+	
+	public static void main(String[] args) {
+
+
+	}
+
+}

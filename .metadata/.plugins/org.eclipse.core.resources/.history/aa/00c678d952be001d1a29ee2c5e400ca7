@@ -1,0 +1,21 @@
+package Day19;
+
+public class car2 {
+
+	class car2 {
+		private int speed;
+		private int size;
+
+		void car2(int speed)
+		{
+			this.(speed,null);
+		}
+
+		void car2(int speed, int size) {
+			this.speed = speed;
+			this.size = size;
+		}
+
+	}
+
+}

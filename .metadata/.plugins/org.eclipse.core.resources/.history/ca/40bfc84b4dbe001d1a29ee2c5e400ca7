@@ -1,0 +1,25 @@
+package Day19;
+
+interface car 
+{
+	public abstract String speed(int n);
+	
+}
+
+class hero implements car {
+
+	@Override
+	public String speed(int n) {
+
+		return (n > 60) ? "fast" : "safe";
+	}
+
+}
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

@@ -2,7 +2,7 @@ package Day18;
 
 class car {
 	static int speed = 80;
-	static int size = 6;
+	static final int size = 6;
 	int cost;
 
 	static String getdetails(int speed) {
