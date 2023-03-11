@@ -1,0 +1,13 @@
+package Day20;
+
+import java.util.Stack;
+
+public class StackExe {
+Stack<String> s1 = new Stack<>();
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

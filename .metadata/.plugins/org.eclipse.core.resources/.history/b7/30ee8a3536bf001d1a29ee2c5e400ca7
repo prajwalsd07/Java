@@ -1,0 +1,14 @@
+package Day20;
+
+import java.util.Stack;
+
+public class StackExe {
+Stack<String> s1 = new Stack<>();
+s1.push("hi");
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

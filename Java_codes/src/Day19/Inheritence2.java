@@ -10,7 +10,7 @@ void show()
 class y extends x {
 
 	void show() {
-		super.show();
+		//super.show();
 		a=5;
 		b=5;
 		c=5;

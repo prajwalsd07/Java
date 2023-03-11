@@ -4,9 +4,8 @@ class A {
 
 	int speed;
 	int size;
-	
-	A(int speed)
-	{
+
+	A(int speed) {
 		System.out.println(speed);
 	}
 
@@ -22,12 +21,12 @@ class A {
 }
 
 class B extends A {
-	B(int speed,int size)
-	{
+	B(int speed, int size) {
 		super(speed);
-		this.size=size;
-		
+		this.size = size;
+
 	}
+
 	@Override
 	int show(int n) {
 		return n + 20;
@@ -49,9 +48,8 @@ class C extends B {
 
 	C(int speed, int size) {
 		super(speed, size);
-		// TODO Auto-generated constructor stub
-	}
 
+	}
 
 }
 
