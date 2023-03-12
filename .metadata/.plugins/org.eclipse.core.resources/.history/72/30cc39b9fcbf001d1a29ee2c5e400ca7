@@ -1,0 +1,32 @@
+package Day21;
+class car extends Thread
+{@Override
+	public void run()  {
+		System.out.println("hi");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
+
+public class ThreadExample {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		car c = new car();
+		c.start();
+		c.start();
+		c.start();
+		c.start();
+		
+		
+		System.out.println("main");
+		c.join();
+		
+
+	}
+
+}

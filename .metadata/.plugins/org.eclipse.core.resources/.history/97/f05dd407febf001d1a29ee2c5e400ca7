@@ -1,0 +1,25 @@
+package Day21;
+
+class counter 
+{
+	
+}
+
+class objectCreate implements  Runnable
+{
+
+	@Override
+	public void run() {
+	counter c  = new counter();
+		
+	}
+	
+}
+public class Thread2 {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

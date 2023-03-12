@@ -1,7 +1,7 @@
 package Day20;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+import java.util.*;
 import java.util.Iterator;
 import java.util.List;
 
@@ -14,7 +14,7 @@ public class ListExample {
 		// list.add(0, 2); //at index
 
 		System.out.println(list);
-		List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+		List<Integer> list1 = Arrays.asList(6,4,2,9,1,5,8,7);
 
 		System.out.println(list1);
 		list.addAll(list1);
@@ -28,6 +28,9 @@ public class ListExample {
 
 		System.out.println(list.toString());
 		
+		Collections.sort(list1);
+		System.out.println(list1);
+		System.out.println("hihihihhihihihihhihihi");
 		
 		
 		Bus bus0 = new Bus(20, 4);

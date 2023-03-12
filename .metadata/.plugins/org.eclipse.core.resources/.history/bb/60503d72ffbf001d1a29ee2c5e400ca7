@@ -1,0 +1,52 @@
+package Day21;
+
+class counter {
+	static int c = 0;
+
+	synchronized void increment() throws InterruptedException {
+		
+		for (int i = 0; i <= 5; i++) {
+			System.out.println(Thread.currentThread().getName());
+			Thread.sleep(100);
+			c++;
+			System.out.println(c);
+		}
+		
+	}
+}
+
+class objectCreate implements Runnable {
+
+	@Override
+	public void run() {
+		counter c = new counter();
+		try {
+			c.increment();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
+
+public class Thread2 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		objectCreate o = new objectCreate();
+		Thread t1 = new Thread(new objectCreate());
+		Thread t2 = new Thread(new objectCreate());
+		Thread t3 = new Thread(new objectCreate());
+		Thread t4 = new Thread(new objectCreate());
+		Thread t5 = new Thread(new objectCreate());
+
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+		t5.start();
+
+	}
+
+}

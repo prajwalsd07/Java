@@ -1,0 +1,31 @@
+package Day21;
+
+class counter {
+static int c = 0;
+void increment()
+{
+	c++;
+}
+}
+
+class objectCreate implements Runnable {
+
+	@Override
+	public void run() {
+		counter c = new counter();
+
+	}
+
+}
+
+public class Thread2 {
+
+	public static void main(String[] args) {
+
+		objectCreate o = new objectCreate();
+		Thread t = new Thread(o);
+		t.start();
+		t.setName("1st");
+	}
+
+}
