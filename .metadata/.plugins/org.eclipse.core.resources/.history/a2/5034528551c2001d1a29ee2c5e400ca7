@@ -1,0 +1,79 @@
+package com.demo.employeemethods;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import entity.Employee;
+
+public class EmployeeDaoJdbcImpl {
+
+	public Employee findById(Integer id) throws EmployeeNotFoundException {
+		Connection conn = null;
+		try {
+			conn  = getConnection();
+			PreparedStatement pst = conn.prepareStatement("select * from employee where empno=?");
+			pst.setInt(1, id);
+			ResultSet rs = pst.executeQuery();
+
+			if (rs.next()) {
+				Employee emp = new Employee(rs.getInt("EMPNO"), rs.getString("NAME"), rs.getString("ADDRESS"),
+						rs.getDouble("SALARY"));
+				return emp;
+			} 
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}
+		} finally {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+
+	public List<Employee> findAll() {
+		Connection conn = null;
+		List<Employee> employees = new ArrayList<>();
+		try {
+			conn = getConnection();
+			PreparedStatement pst = conn.prepareStatement("select * from employee");
+			ResultSet res = pst.executeQuery();
+			while (res.next()) {
+				int id = res.getInt("EMPNO");
+				String name = res.getString("NAME");
+				String city = res.getString("ADDRESS");
+				double salary = res.getDouble("SALARY");
+				employees.add(new Employee(id, name, city, salary));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return employees;
+	}
+
+	public Connection getConnection() throws SQLException {
+		final String JDBC_URL = "jdbc:mariadb://localhost:3306/sapientdb";
+		try {
+			Class.forName("org.mariadb.jdbc.Driver");
+			Connection conn = DriverManager.getConnection(JDBC_URL, "root", "root");
+			return conn;
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+			throw new SQLException("Connection cannot be created");
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw e;
+		}
+
+	}
+
+}

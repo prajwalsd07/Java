@@ -1,0 +1,25 @@
+package Day22;
+
+interface student {
+	int roll = 5;
+	String name = "rama";
+
+	void getdetails();
+}
+
+public class AnyonomousClass {
+
+	public static void main(String[] args) {
+		student stu = new student() {
+
+			@Override
+			public void getdetails() {
+				System.out.println(roll + " " + name);
+
+			}
+		};
+		
+		stu.getdetails();
+	}
+
+}

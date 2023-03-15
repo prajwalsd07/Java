@@ -15,6 +15,7 @@ public class ListExample {
 
 		System.out.println(list);
 		List<Integer> list1 = Arrays.asList(6,4,2,9,1,5,8,7);
+		//list1.forEach(n-> System.out.println(n));
 
 		System.out.println(list1);
 		list.addAll(list1);

@@ -1,0 +1,21 @@
+package Day22;
+
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+public class FunctionalExample {
+	
+	
+
+	public static void main(String[] args) {
+
+Consumer<Integer> consumer = (n)-> System.out.println(n);
+
+consumer.accept(10);
+
+Predicate<Integer> predict = (n) -> (n>10)?true:false;
+
+predict.test(11);
+	}
+
+}

@@ -1,0 +1,19 @@
+package Day22;
+
+@FunctionalInterface
+interface student {
+	int roll = 5;
+	String name = "rama";
+
+	void getdetails();
+}
+
+public class AnyonomousClass {
+
+	public static void main(String[] args) {
+		student stu = () -> System.out.println("hi" + " " + "hello");
+
+		stu.getdetails();
+	}
+
+}

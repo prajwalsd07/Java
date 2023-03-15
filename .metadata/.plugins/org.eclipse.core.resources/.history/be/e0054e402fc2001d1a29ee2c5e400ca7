@@ -1,0 +1,26 @@
+package Day22;
+
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+public class FunctionalExample {
+
+	public static void main(String[] args) {
+
+		Consumer<Integer> consumer = (n) -> System.out.println(n);
+		consumer.accept(10);
+
+		Supplier<String> supply = () -> "hello";
+		System.out.println(supply.get());
+		
+		Predicate<Integer> predict = (n) -> (n > 10) ? true : false;
+		System.out.println(predict.test(11));
+		
+		Function<String, Integer> size = (str) -> str.length();
+		System.out.println(size.apply("helloiamcar"));
+
+	}
+
+}

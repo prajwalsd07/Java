@@ -1,0 +1,50 @@
+package Day22;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StreamsExample {
+public static void main(String args[])
+{
+	List<Integer> list = Arrays.asList(1,4,9,2,3,8,5,0);
+	
+	
+Stream<Integer> data = list.stream();
+Stream<Integer> data1 = data.sorted();
+
+list.stream().sorted().filter(n->n%2==0).map(n->n*2).forEach(n->System.out.println(n));
+
+int count = (int) list.stream().sorted().filter(n->n%2==0).map(n->n*2).count();
+System.out.println(count);
+
+int sum1 = (int) list.stream().sorted().filter(n->n%2==0).map(n->n*2).mapToInt(n->n.intValue()).sum();
+System.out.println(sum1);
+
+List<Integer> even = list.stream().sorted().filter(n->n%2==0).collect(Collectors.toList());
+
+List<Integer> even1 = list.stream().sorted().filter(n->n%2==0).toList();
+
+System.out.println(even);
+System.out.println(even1);
+
+
+//reduce
+
+int sum2 = (int) list.stream().reduce(0,(a,b) -> a+b);
+System.out.println(sum2);
+
+
+//peek
+
+System.out.println((list.stream().peek(n->n.intValue())));
+
+
+
+
+
+
+ 
+}
+}
