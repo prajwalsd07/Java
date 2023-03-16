@@ -1,0 +1,27 @@
+
+]
+java:S1197E"*Move the array designators [] to the type.(›€”ë8©é°¢î0HÐRMINORZ
+CODE_SMELL
+x	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¬ƒÀÓ8¹˜ë î0H¶RMAJORZ
+CODE_SMELL
+i	java:S106""9Replace this use of System.out or System.err by a logger.(ëÝ•ÙÿÿÿÿÿH²RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¬÷îƒ8Üöö î0H½RMAJORZ
+CODE_SMELL
+‚
+java:S20953"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äÁ‘Ãÿÿÿÿÿ8©é°¢î0HÏRBLOCKERZBUG
+k	java:S106G"9Replace this use of System.out or System.err by a logger.(×Æáî8©é°¢î0HÔRMAJORZ
+CODE_SMELL
+Ž
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "con".(×çÆ¸8¹˜ë î0H·RMINORZ
+CODE_SMELL
+n
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‹½»žH±RBLOCKERZBUG
+k	java:S106J"9Replace this use of System.out or System.err by a logger.(ë¿ÛÌ8Ñ¿À¡î0HÌRMAJORZ
+CODE_SMELL
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ¶ö‘8Üöö î0H¼RBLOCKERZBUG
+s	java:S125)"<This block of commented-out lines of code should be removed.(ñªÕðüÿÿÿÿ8ÆãÆ¢î0HèRMAJORZ
+CODE_SMELL
+m	java:S125."<This block of commented-out lines of code should be removed.(·Õ¼+8ÆãÆ¢î0HêRMAJORZ
+CODE_SMELL

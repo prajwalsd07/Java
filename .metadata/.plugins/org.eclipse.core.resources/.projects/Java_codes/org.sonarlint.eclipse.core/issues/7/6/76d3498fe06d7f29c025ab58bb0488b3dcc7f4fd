@@ -1,0 +1,15 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(‚±Ï³8ôÂ¹ªì0Hä	RMAJORZ
+CODE_SMELL
+~	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÕÇáX8†ï³ªì0HÜ	RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(±Ïû½üÿÿÿÿ8÷Ğªì0Hå	RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÆò—üÿÿÿÿHØ	RMINORZ
+CODE_SMELL
+ˆ	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†¼†ôşÿÿÿÿ8†ï³ªì0Hİ	RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(°²Ê×8©âÒªì0Hæ	RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(÷¼Ä´úÿÿÿÿ8©âÒªì0Hç	RMAJORZ
+CODE_SMELL

@@ -1,0 +1,26 @@
+package com.demo.employeemethods;
+import java.sql.*;
+
+
+public class JdbcApp {
+
+	public static void main(String[] args) throws Exception {
+		String url="jdbc:mariadb://localhost:3307/akash";
+		String user="root";
+		String pass="root";
+		
+		Class.forName("org.mariadb.jdbc.Driver"); //registered
+		Connection con=DriverManager.getConnection(url, user,pass);
+		Statement st=con.createStatement();
+		ResultSet re= st.executeQuery("SELECT * FROM Employee");
+		
+		re.next();
+		System.out.println(re.getInt("EmployeeID")+" "+re.getString("FirstName"));
+		
+		st.close();
+		con.close();
+		
+
+	}
+
+}

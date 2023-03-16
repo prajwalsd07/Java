@@ -1,0 +1,19 @@
+
+p	java:S106""9Replace this use of System.out or System.err by a logger.(†ÊèÉÿÿÿÿÿ8³âŸªì0HÓ	RMAJORZ
+CODE_SMELL
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëîé¶8óÛŒªì0HÍ	RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÆò—üÿÿÿÿHË	RMINORZ
+CODE_SMELL
+f
+java:S1610"3Convert the abstract class "car" into an interface.(Ëîé¶8óÛŒªì0HÎ	RMINORZ
+CODE_SMELL
+s	java:S125'"<This block of commented-out lines of code should be removed.(—øÚÉøÿÿÿÿ8³âŸªì0HÔ	RMAJORZ
+CODE_SMELL
+k	java:S106%"9Replace this use of System.out or System.err by a logger.(‚±Ï³8ê¤ªì0HÖ	RMAJORZ
+CODE_SMELL
+„	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ì…Éýÿÿÿÿ8³âŸªì0HÒ	RMINORZ
+CODE_SMELL
+l
+java:S3400"9Remove this method and declare a constant for this value.(µŒ¤Î8óÛŒªì0HÏ	RMINORZ
+CODE_SMELL

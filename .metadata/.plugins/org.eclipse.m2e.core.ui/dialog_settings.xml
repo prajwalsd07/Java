@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java\JDBCExample"/>
+			<item value="D:\Java\Java_codes"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,10 +45,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.demo"/>
 		</list>
 		<list key="name">
+			<item value="HibernateExample"/>
+			<item value="JDBCExample"/>
 		</list>
 		<list key="artifactId">
+			<item value="HibernateExample"/>
+			<item value="JDBCExample"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -57,7 +64,12 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="1.0"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

@@ -1,0 +1,85 @@
+package com.demo.patient;
+
+import java.sql.*;
+import java.util.Arrays;
+
+public class JdbcApp {
+
+	Connection getconnection() throws Exception {
+		String url = "jdbc:mariadb://localhost:3307/patientdb";
+		String user = "root";
+		String pass = "root";
+
+		Class.forName("org.mariadb.jdbc.Driver"); // registered
+		Connection con = DriverManager.getConnection(url, user, pass);
+		return con;
+	}
+
+	public static void main(String[] args) throws Exception {
+		JdbcApp jdbc = new JdbcApp();
+		Connection con = jdbc.getconnection();
+
+		Statement st = con.createStatement();
+		ResultSet re = st.executeQuery("SELECT * FROM patient");
+
+		while (re.next()) {
+			System.out.println(re.getInt("patient_id") + " " + re.getString("first_name") + " "
+					+ re.getString("last_name") + " " + re.getString("email"));
+		}
+
+		PreparedStatement ps = con.prepareStatement("select * from patient where patient_id= ?");
+		ps.setInt(1, 201);
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			System.out.println(rs.getInt("patient_id") + " " + rs.getString("first_name") + " "
+					+ rs.getString("last_name") + " " + rs.getString("email"));
+		}
+
+		PreparedStatement ps1 = con
+				.prepareStatement("insert into patient(patient_id,first_name,last_name,email) values (?,?,?,?)");
+		ps1.setInt(1, 210);
+		ps1.setString(2, "biden");
+		ps1.setString(3, "joe");
+		ps1.setString(4, "joe@gmail.com");
+		int n = ps1.executeUpdate(); // returns int
+		System.out.println(n + " rows saved");
+
+		ps.close();
+		ps1.close();
+		st.close();
+
+		// transaction
+
+		PreparedStatement pst = con
+				.prepareStatement("insert into patient(patient_id,first_name,last_name,email) values (?,?,?,?)");
+		// 01
+		pst.setInt(1, 210);
+		pst.setString(2, "shantu");
+		pst.setString(3, "rnr");
+		pst.setString(4, "rnr@gmail.com");
+		pst.addBatch();
+
+		// 02
+		pst.setInt(1, 209);
+		pst.setString(2, "santhosh");
+		pst.setString(3, "rnr");
+		pst.setString(4, "rnrsanthu@gmail.com");
+		pst.addBatch();
+
+		try {
+			con.setAutoCommit(false);
+
+			int arr[] = pst.executeBatch();
+			con.commit();
+			System.out.println(Arrays.toString(arr));
+		} catch (SQLException e) {
+			con.rollback();
+			System.out.println("rollback");
+		} finally {
+			con.setAutoCommit(true);
+			con.close();
+
+		}
+	}
+
+}

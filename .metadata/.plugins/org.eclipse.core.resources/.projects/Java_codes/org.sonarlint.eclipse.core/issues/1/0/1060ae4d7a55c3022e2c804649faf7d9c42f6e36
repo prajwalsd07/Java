@@ -1,0 +1,19 @@
+
+Y
+java:S1481#"&Remove this unused "v" local variable.(½ë»ú8¸»ˆÔì0H™RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8‰¯ãÓì0H¶RMAJORZ
+CODE_SMELL
+`
+java:S1172"(Remove this unused method parameter "a".(Ç¶Ùıÿÿÿÿ8áõ£Ôì0H¹RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(•«Ïûÿÿÿÿ8‰¯ãÓì0HµRMAJORZ
+CODE_SMELL
+h
+java:S1854#"5Remove this useless assignment to local variable "v".(½ë»ú8¸»ˆÔì0H˜RMAJORZ
+CODE_SMELL
+­
+java:S1130"uRemove the declaration of thrown exception 'Day20.DevidedByZeroException', as it cannot be thrown from method's body.(Ôàûÿÿÿÿ8£©µÔì0HÔRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ö¯´HçRMINORZ
+CODE_SMELL

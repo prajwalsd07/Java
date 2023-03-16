@@ -1,0 +1,22 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÿŠ8—¦Û×ë0HùRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èœ”¡ûÿÿÿÿHöRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ù¾°µúÿÿÿÿ8Ç´ùÙë0H¸	RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Ö¤¶]8ú›ä×ë0HúRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(á¼–8ÕŞÙë0Hª	RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‰²§‰üÿÿÿÿ8—¦Û×ë0HøRMAJORZ
+CODE_SMELL
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(ü³‹›ÿÿÿÿÿ8™æ×ë0HûRMAJORZ
+CODE_SMELL
+n
+java:S1854"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ8™¼‚ì0H½	RMAJORZ
+CODE_SMELL
+_
+java:S1481"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿ8™¼‚ì0H¾	RMINORZ
+CODE_SMELL

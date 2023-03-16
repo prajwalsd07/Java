@@ -1,0 +1,49 @@
+
+q
+java:S1854"9Remove this useless assignment to local variable "data1".(Ã…š“şÿÿÿÿ8¾‡÷í0H¯RMAJORZ
+CODE_SMELL
+v
+java:S1612">Replace this lambda with method reference 'Integer::intValue'.(¶‘•Òúÿÿÿÿ8ê³÷í0HøRMINORZ
+CODE_SMELL
+k	java:S106$"9Replace this use of System.out or System.err by a logger.(«Ãıû8‚óÀ÷í0HƒRMAJORZ
+CODE_SMELL
+Y
+java:S1905#"&Remove this unnecessary cast to "int".(œôå8‚óÀ÷í0HRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(öãÚØÿÿÿÿÿ8ª–¬÷í0HèRMAJORZ
+CODE_SMELL
+b
+java:S1197	"*Move the array designators [] to the type.(º ìıÿÿÿÿ8ˆªèöí0H’RMINORZ
+CODE_SMELL
+Š
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(î¡î÷üÿÿÿÿ8¢Ç©÷í0HÏRMAJORZ
+CODE_SMELL
+q
+java:S1612)">Replace this lambda with method reference 'Integer::intValue'.(ŞÒ‡¤8İ¸Ğ÷í0HRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¶»­§8ˆªèöí0H«RMAJORZ
+CODE_SMELL
+b
+java:S1481"*Remove this unused "data1" local variable.(Ã…š“şÿÿÿÿ8¾‡÷í0H°RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à¸›±HRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(æÒğ‡ùÿÿÿÿ8ª–¬÷í0HéRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(æ”Š8ï÷±÷í0HğRMAJORZ
+CODE_SMELL
+s
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¶»­§8ˆªèöí0H¬RMINORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(ŞÒ‡¤8¦èÑ÷í0H™RMAJORZ
+CODE_SMELL
+T
+java:S3864)"!Remove this use of "Stream.peek".(ŞÒ‡¤8İ¸Ğ÷í0HRMAJORZ
+CODE_SMELL
+c
+java:S3958"2Refactor the code so this stream pipeline is used.(Ã…š“şÿÿÿÿ8¾‡÷í0H®RMAJORZBUG
+^
+java:S1905"&Remove this unnecessary cast to "int".(¶‘•Òúÿÿÿÿ8ê³÷í0HöRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8£Ò—÷í0HÅRMAJORZ
+CODE_SMELL

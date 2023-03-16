@@ -1,0 +1,45 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(„†–ϋÿÿÿÿ8¬¨λυν0HΧRMAJORZ
+CODE_SMELL
+b
+java:S1611"/Remove the parentheses around the "n" parameter(Τ”Πά8³©ιυν0HΛRMINORZ
+CODE_SMELL
+…
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(Τ”Πά8³©ιυν0HΚRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ΐ’α—ώÿÿÿÿ8ήχυν0HκRMAJORZ
+CODE_SMELL
+[
+java:S1125"(Remove the unnecessary boolean literals.(Τ”Πά8³©ιυν0HΜRMINORZ
+CODE_SMELL
+
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(”Ξ’ά8ήχυν0HζRMINORZ
+CODE_SMELL
+„
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(κ¨ί™8‘™βυν0HΒRMINORZ
+CODE_SMELL
+n
+java:S1612";Replace this lambda with method reference 'String::length'.(”Ξ’ά8ήχυν0HθRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(΅δ¬ιωÿÿÿÿ8‘™βυν0HΖRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΰΈ›±HRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(έχΟ8‘€φν0HοRMAJORZ
+CODE_SMELL
+l
+java:S1612"9Replace this lambda with method reference 'Math::random'.(¥ηπΎ8µΑ‡φν0HφRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ο Άώÿÿÿÿ8ϊ‰φν0HÿRMAJORZ
+CODE_SMELL
+d
+java:S1611"1Remove the parentheses around the "str" parameter(”Ξ’ά8ήχυν0HηRMINORZ
+CODE_SMELL
+b
+java:S1611"/Remove the parentheses around the "n" parameter(κ¨ί™8‘™βυν0HΓRMINORZ
+CODE_SMELL
+s
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(κ¨ί™8‘™βυν0HΔRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(κ¨ί™8•ρυν0HβRMAJORZ
+CODE_SMELL

@@ -1,0 +1,31 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(÷ğåŸ8¥¯¢Õì0HƒRMAJORZ
+CODE_SMELL
+j	java:S1066"9Replace this use of System.out or System.err by a logger.(úÏ‹B8ÙéƒÖì0HRMAJORZ
+CODE_SMELL
+k	java:S106*"9Replace this use of System.out or System.err by a logger.(¯×«İ8ğ„ñÕì0H–RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ö¯´HçRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8‡ÍÕì0HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8Æù¿Õì0H†RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ô©¼Õì0H…RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8¡ÖÅÕì0H‰RMAJORZ
+CODE_SMELL
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ8•±ßÕì0H’RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ù÷Ä˜8´îÁÕì0H‡RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(îÚíû8ÃÍ¡Õì0H‚RMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(É„†ú8ğ„ñÕì0H•RMAJORZ
+CODE_SMELL
+k	java:S1065"9Replace this use of System.out or System.err by a logger.(…ïŠ‰8ÙéƒÖì0HœRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(˜Œ¯¬ûÿÿÿÿ8»‚ÈÕì0HŠRMAJORZ
+CODE_SMELL
+k	java:S1069"9Replace this use of System.out or System.err by a logger.(¯×«İ8ÙéƒÖì0HRMAJORZ
+CODE_SMELL

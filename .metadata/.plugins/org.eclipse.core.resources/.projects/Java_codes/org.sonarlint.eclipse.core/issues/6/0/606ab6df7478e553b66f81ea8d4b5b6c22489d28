@@ -1,10 +1,13 @@
 
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷™ø0H¼RMINORZ
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á°¬Ý8±üÆ®ë0HüRMINORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷™ø0HùRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ä¼ø8™—À±ë0H¯RMAJORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á°¬Ý8±üÆ®ë0H€RMINORZ
 CODE_SMELL
 ‘
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(È´’Óûÿÿÿÿ8‚Áñ­ë0HîRMINORZ
-CODE_SMELL
-s	java:S125	"<This block of commented-out lines of code should be removed.(ƒˆÞêùÿÿÿÿ8‚Áñ­ë0HãRMAJORZ
-CODE_SMELL
-Š	java:S116"SRename this field "hash_Set" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È´’Óûÿÿÿÿ8Ð§÷­ë0HðRMINORZ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ßËÊÿÿÿÿÿ8±üÆ®ë0HþRMINORZ
 CODE_SMELL

@@ -1,35 +1,35 @@
 
-Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8úÕ´á0HRMINORZ
+€
+java:S4276"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(øĞ§H‹RMINORZ
 CODE_SMELL
-ƒ
-java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ˆú¥ÿşÿÿÿÿH€RMINORZ
-CODE_SMELL
-x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ±ÎùHûRMINORZ
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ±ÎùHŒRMINORZ
 CODE_SMELL
 Š
-java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(í¼ ûûÿÿÿÿHÿRMINORZ
-CODE_SMELL
-€
-java:S4276"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(øĞ§HúRMINORZ
+java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(í¼ ûûÿÿÿÿHRMINORZ
 CODE_SMELL
 e
-java:S1612"9Replace this lambda with method reference 'Math::random'.(øĞ§HıRMINORZ
+java:S1612"9Replace this lambda with method reference 'Math::random'.(øĞ§HRMINORZ
 CODE_SMELL
 q
-java:S1612!"@Replace this lambda with method reference 'System.out::println'.(‰ãÖ€ÿÿÿÿÿH†RMINORZ
+java:S1612("@Replace this lambda with method reference 'System.out::println'.(˜ò‚âùÿÿÿÿHRMINORZ
 CODE_SMELL
-i	java:S106!"9Replace this use of System.out or System.err by a logger.(‰ãÖ€ÿÿÿÿÿH…RMAJORZ
+d	java:S106"9Replace this use of System.out or System.err by a logger.(«Õ¯‰H’RMAJORZ
 CODE_SMELL
-i	java:S106("9Replace this use of System.out or System.err by a logger.(˜ò‚âùÿÿÿÿHˆRMAJORZ
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8úÕ´á0H“RMINORZ
 CODE_SMELL
-c	java:S106"9Replace this use of System.out or System.err by a logger.(•ØµH‚RMAJORZ
+ƒ
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ˆú¥ÿşÿÿÿÿH”RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÀºşùÿÿÿÿH•RMAJORZ
 CODE_SMELL
 q
-java:S1612("@Replace this lambda with method reference 'System.out::println'.(˜ò‚âùÿÿÿÿH‰RMINORZ
+java:S1612!"@Replace this lambda with method reference 'System.out::println'.(‰ãÖ€ÿÿÿÿÿH–RMINORZ
 CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÀºşùÿÿÿÿHüRMAJORZ
+i	java:S106("9Replace this use of System.out or System.err by a logger.(˜ò‚âùÿÿÿÿH˜RMAJORZ
 CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(±»²ıÿÿÿÿH„RMAJORZ
+i	java:S106"9Replace this use of System.out or System.err by a logger.(±»²ıÿÿÿÿH™RMAJORZ
 CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(«Õ¯‰HƒRMAJORZ
+i	java:S106!"9Replace this use of System.out or System.err by a logger.(‰ãÖ€ÿÿÿÿÿHšRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(•ØµH›RMAJORZ
 CODE_SMELL

@@ -1,0 +1,9 @@
+
+b
+java:S1135
+"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH“RINFOZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ö¯´H’RMINORZ
+CODE_SMELL
+ˆ	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ò«¦ôúÿÿÿÿ8¿•˜Ûì0H·RMINORZ
+CODE_SMELL

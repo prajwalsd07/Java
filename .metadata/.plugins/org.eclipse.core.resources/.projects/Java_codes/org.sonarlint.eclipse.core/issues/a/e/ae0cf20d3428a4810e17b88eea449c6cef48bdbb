@@ -1,0 +1,12 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èœ”¡ûÿÿÿÿH¨	RMINORZ
+CODE_SMELL
+h
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ð¥Ä–8¯öÞÙë0H¯	RMAJORZBUG
+b
+java:S1197"*Move the array designators [] to the type.(ñæ³–üÿÿÿÿ8¯öÞÙë0H²	RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”ã’¬üÿÿÿÿ8¯öÞÙë0Hµ	RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(èóÒµ8¯öÞÙë0H¶	RMAJORZ
+CODE_SMELL

@@ -1,0 +1,30 @@
+
+…
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "a".(êñ³ÄH—
+RMINORZ
+CODE_SMELL
+Š
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "a".(Ïä©œÿÿÿÿÿHš
+RMINORZ
+CODE_SMELL
+s	java:S125'"<This block of commented-out lines of code should be removed.(¤ÓÉÂùÿÿÿÿ8¥ä£¬ì0H¾
+RMAJORZ
+CODE_SMELL
+p	java:S106="9Replace this use of System.out or System.err by a logger.(‡Â„÷ûÿÿÿÿ8ßîœ¬ì0H§
+RMAJORZ
+CODE_SMELL
+j	java:S106>"9Replace this use of System.out or System.err by a logger.(º±—C8–±¬ì0HÍ
+RMAJORZ
+CODE_SMELL
+k	java:S106	"9Replace this use of System.out or System.err by a logger.(ëÁ¯ı8ßîœ¬ì0H¦
+RMAJORZ
+CODE_SMELL
+s	java:S125!"<This block of commented-out lines of code should be removed.(Ğáõ¯ıÿÿÿÿ8ÿš¢¬ì0H¹
+RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÆò—üÿÿÿÿH
+RMINORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(§ÍÂæ8Ï›¬ì0H¬
+RMAJORZ
+CODE_SMELL

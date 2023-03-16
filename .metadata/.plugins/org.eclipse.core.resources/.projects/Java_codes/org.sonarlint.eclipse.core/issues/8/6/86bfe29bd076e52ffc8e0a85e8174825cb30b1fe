@@ -1,0 +1,18 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü8§íŸƒí0H¥RMAJORZ
+CODE_SMELL
+q
+java:S2276
+"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶8‰ä®ƒí0H¸RBLOCKERZBUG
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°˜·8ë›ƒƒí0HúRMINORZ
+CODE_SMELL
+p	java:S106	"9Replace this use of System.out or System.err by a logger.(›Óğ°şÿÿÿÿ8„‡ƒí0H±RMAJORZ
+CODE_SMELL
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(í©Ê¹8ë›ƒƒí0HûRMINORZ
+CODE_SMELL
+Š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÅÇ”ƒí0H˜RMAJORZBUG
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÜù­H÷RMINORZ
+CODE_SMELL
+p	java:S1068"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8ÖÑÁƒí0H¿RMAJORZ
+CODE_SMELL

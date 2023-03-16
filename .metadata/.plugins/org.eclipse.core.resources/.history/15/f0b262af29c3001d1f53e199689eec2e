@@ -1,0 +1,23 @@
+package com.demo.hibernateExample;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App {
+	public static void main(String[] args) {
+		Alien praj = new Alien();
+		praj.setAid(1);
+		praj.setName("prajwal");
+		praj.setColour("black");
+
+		Configuration conn = new Configuration().configure().addAnnotatedClass(Alien.class);
+		SessionFactory sesf = conn.buildSessionFactory();
+		Session session = sesf.openSession();
+		Transaction tx = session.beginTransaction();
+		session.save(praj);
+		tx.commit();
+	}
+
+}

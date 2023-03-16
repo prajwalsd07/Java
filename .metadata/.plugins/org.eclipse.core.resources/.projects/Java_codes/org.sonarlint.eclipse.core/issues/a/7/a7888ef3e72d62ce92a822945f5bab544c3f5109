@@ -1,10 +1,19 @@
 
-i	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿHÊRMAJORZ
-CODE_SMELL
-}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡İ€ÚşÿÿÿÿHËRMINORZ
-CODE_SMELL
-Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8ÿÕ´á0HÌRMINORZ
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡İ€ÚşÿÿÿÿHíRMINORZ
 CODE_SMELL
 V
-java:S1197"*Move the array designators [] to the type.(Ë°ˆ²HÍRMINORZ
+java:S1197"*Move the array designators [] to the type.(Ë°ˆ²HîRMINORZ
+CODE_SMELL
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ¸«ú8ÿÕ´á0HñRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿHòRMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏÕ•Êÿÿÿÿÿ8½—µ®ë0HóRMINORZ
+CODE_SMELL
+x
+java:S1854"@Remove this useless assignment to local variable "raceLanesSet".(ÏÕ•Êÿÿÿÿÿ8½—µ®ë0HõRMAJORZ
+CODE_SMELL
+i
+java:S1481"1Remove this unused "raceLanesSet" local variable.(ÏÕ•Êÿÿÿÿÿ8½—µ®ë0HöRMINORZ
 CODE_SMELL

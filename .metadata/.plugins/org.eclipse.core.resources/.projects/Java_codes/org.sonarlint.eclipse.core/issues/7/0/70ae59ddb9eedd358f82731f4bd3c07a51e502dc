@@ -1,0 +1,17 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ö¯´H¯RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(œ™À8àÛ’Úì0HÞRMAJORZ
+CODE_SMELL
+ˆ
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¦Ìõéþÿÿÿÿ8è¯ùÙì0HÏRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8ç¢’Úì0HÛRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8“ª”Úì0HàRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(µÌ”Çýÿÿÿÿ8·ì‘Úì0HÖRMAJORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8âê£Úì0HåRMINORZ
+CODE_SMELL

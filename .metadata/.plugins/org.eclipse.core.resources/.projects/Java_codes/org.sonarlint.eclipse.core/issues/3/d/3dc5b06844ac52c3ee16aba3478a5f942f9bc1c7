@@ -1,17 +1,17 @@
 
-Š
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ıÃÇƒâ0HÑRMAJORZBUG
-q
-java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¬Æ„°8Õò¬„â0HŒRBLOCKERZBUG
-k	java:S106"9Replace this use of System.out or System.err by a logger.(Š¾ûº8úèƒâ0HßRMAJORZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(‡¦ØÛùÿÿÿÿ8ıÃÇƒâ0HÓRMAJORZ
-CODE_SMELL
 R
-java:S2119"Save and re-use this "Random".(‡¦ØÛùÿÿÿÿ8ıÃÇƒâ0HÔRCRITICALZBUG
-k	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÿÀÙ8úèƒâ0HŞRMAJORZ
+java:S2119"Save and re-use this "Random".(‡¦ØÛùÿÿÿÿ8ıÃÇƒâ0HÃRCRITICALZBUG
+q
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¬Æ„°8Õò¬„â0HÄRBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Š¾ûº8úèƒâ0HÅRMAJORZ
 CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ŠãHÎRMINORZ
+Š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ıÃÇƒâ0HÆRMAJORZBUG
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‡¦ØÛùÿÿÿÿ8ıÃÇƒâ0HÇRMAJORZ
 CODE_SMELL
-n	java:S125"<This block of commented-out lines of code should be removed.(§Âä8±ìã„â0H¯RMAJORZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ŠãHÈRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÿÀÙ8úèƒâ0HÉRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(§Âä8±ìã„â0HÊRMAJORZ
 CODE_SMELL

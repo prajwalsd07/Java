@@ -1,0 +1,42 @@
+package com.demo.patient;
+
+import java.sql.*;
+
+public class JdbcApp {
+
+	Connection getconnection() throws Exception {
+		String url = "jdbc:mariadb://localhost:3307/patientdb";
+		String user = "root";
+		String pass = "root";
+
+		Class.forName("org.mariadb.jdbc.Driver"); // registered
+		Connection con = DriverManager.getConnection(url, user, pass);
+		return con;
+	}
+
+	public static void main(String[] args) throws Exception {
+		JdbcApp jdbc = new JdbcApp();
+		Connection con = jdbc.getconnection();
+
+		Statement st = con.createStatement();
+		ResultSet re = st.executeQuery("SELECT * FROM patient");
+
+		while (re.next()) {
+			System.out.println(re.getInt("patient_id") + " " + re.getString("first_name") + " "
+					+ re.getString("last_name") + " " + re.getString("email"));
+		}
+
+		PreparedStatement ps = con.prepareStatement("select * from patient where patient_id= ?");
+		ps.setInt(1, 201);
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			System.out.println(rs.getInt("patient_id") + " " + rs.getString("first_name") + " "
+					+ rs.getString("last_name") + " " + rs.getString("email"));
+		}
+		ps.close();
+		st.close();
+		con.close();
+
+	}
+
+}

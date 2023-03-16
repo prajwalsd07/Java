@@ -1,0 +1,6 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èœ”¡ûÿÿÿÿHÂRMINORZ
+CODE_SMELL
+n
+java:S2094"BRemove this empty class, write its code or make it an "interface".(•¢¸ŽHÃRMINORZ
+CODE_SMELL
