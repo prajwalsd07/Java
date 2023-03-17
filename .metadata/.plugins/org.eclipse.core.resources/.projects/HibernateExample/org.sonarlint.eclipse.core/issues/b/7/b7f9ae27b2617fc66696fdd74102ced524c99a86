@@ -1,5 +1,5 @@
 
-x
-java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(¥µÃÏúÿÿÿÿ8Ò²Ü¦î0HRBLOCKERZBUG
-Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶†õˆşÿÿÿÿH‹RMINORZ
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶†õˆşÿÿÿÿHµRMINORZ
 CODE_SMELL
+x
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(¥µÃÏúÿÿÿÿ8Ò²Ü¦î0H¶RBLOCKERZBUG
