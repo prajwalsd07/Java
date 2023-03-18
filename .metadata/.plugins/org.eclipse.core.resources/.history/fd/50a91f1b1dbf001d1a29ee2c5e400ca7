@@ -1,6 +1,0 @@
-package Day20;
-
-public class Bus {
-int seat;
-int wheel;
-}
