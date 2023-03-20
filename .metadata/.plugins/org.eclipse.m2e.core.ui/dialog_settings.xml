@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java\hibernate-onetoone"/>
 			<item value="D:\Java\HibernateExample"/>
 			<item value="D:\Java\JDBCExample"/>
 			<item value="D:\Java\Java_codes"/>
@@ -49,11 +50,13 @@
 			<item value="com.demo"/>
 		</list>
 		<list key="name">
+			<item value="servlets"/>
 			<item value="Hibernate-onetomany"/>
 			<item value="HibernateExample"/>
 			<item value="JDBCExample"/>
 		</list>
 		<list key="artifactId">
+			<item value="servlets"/>
 			<item value="Hibernate-onetomany"/>
 			<item value="hibernate-onetoone"/>
 			<item value="HibernateExample"/>
@@ -73,6 +76,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
