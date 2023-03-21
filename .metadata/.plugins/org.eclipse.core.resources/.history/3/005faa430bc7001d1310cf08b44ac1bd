@@ -1,0 +1,6 @@
+import package com.demo.springdemo
+
+public interface Greet {
+
+	public String greetMessage();
+}
