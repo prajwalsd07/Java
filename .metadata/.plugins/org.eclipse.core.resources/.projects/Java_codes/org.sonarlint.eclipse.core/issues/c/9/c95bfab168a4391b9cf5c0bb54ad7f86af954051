@@ -1,8 +1,0 @@
-
-k	java:S106"9Replace this use of System.out or System.err by a logger.(÷ğåŸ8ÑÌ‰ÿì0HêRMAJORZ
-CODE_SMELL
-[
-java:S1604"(Make this anonymous inner class a lambda(ş€÷Í8Øˆÿì0HæRMAJORZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÜù­HäRMINORZ
-CODE_SMELL

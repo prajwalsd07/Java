@@ -39,8 +39,6 @@ H
 src/Day16/Frequency.java,6\0\606ab6df7478e553b66f81ea8d4b5b6c22489d28
 J
 src/Day16/SecondLarge.java,6\c\6cd68a4a31c9b571f2bde7e513c970776f9e76b9
-Q
-!src/Day16/CharactersinString.java,0\5\0546212b005e3bedc5f0a4d70337c30de5149958
 I
 src/Day16/ThirdLarge.java,e\a\ea199d863b421119a109998805481348803c8bef
 N
@@ -71,16 +69,8 @@ L
 src/Day19/AbstractClass.java,8\4\84fe911c4ba8d89380db66369727c567ae461e31
 O
 src/Day19/InterfaceExample.java,7\6\76d3498fe06d7f29c025ab58bb0488b3dcc7f4fd
-B
-src/Day19/car.java,a\3\a31d3cca3854f9dae1e99377922999523b7a8cc1
-C
-src/Day19/car2.java,c\c\cc0bb6e32106ae9ea1487549d3e55cc622fbd832
-@
-src/Day19/A.java,b\b\bbf8fda6ca0b73a604a96600ed2935b891320e90
 Q
 !src/Day19/ConstructorExample.java,7\0\70295b4e09d1b665875946ce5156d2d97e20045d
-T
-$src/Day20/AccessModifierExample.java,c\2\c2eb7684b80e50afd18f7323ae73afc8f5980fdd
 Q
 !src/Day19/InheritenceExample.java,4\3\4395ef27bf3ea954b0a357b561c97a1dd2e62603
 K
@@ -97,26 +87,16 @@ N
 src/Day20/BreaAndContinue.java,7\5\754ff553191d6ed9b68883b0614b9c4f46236b11
 B
 src/Day20/Bus.java,0\1\014d2d4ee3fa03912cb4998b22427a9c456109b1
-R
-"src/Day20/GenericsCollections.java,b\e\bebb6c298dd367f688141ed11c317581b8ece9cd
-O
-src/Day20/VectorStackQueue.java,d\8\d8f62c98309a940318e44b003dd1e9378b00b042
 H
 src/Day20/VectorExe.java,2\5\25b17631442e10906b2bdff1ad9be2bbab0e3018
 G
 src/Day20/StackExe.java,7\0\70ae59ddb9eedd358f82731f4bd3c07a51e502dc
 K
 src/Day20/QueueExample.java,9\3\93a789af07fe39359e58313382f8c5af2a9fa56f
-C
-src/Day20/Test.java,4\c\4c8068342ffde48c6fe05cc0d1e3f40c57edd185
 I
 src/Day20/SetExample.java,2\9\29fefeae0273f00cb0b0acdc7a53b5986009615d
 J
 src/Day20/MapsExample.java,3\a\3ab50cfc68c20d342ade24d0c815dcf7f67cc50d
-M
-src/Day21/CompareExample.java,c\9\c95bfab168a4391b9cf5c0bb54ad7f86af954051
-N
-src/Day21/CompareExample2.java,d\6\d6dac406fe700967d3497290121f69039472df35
 Q
 !src/Day21/ComparableExample3.java,6\f\6f2e6dffcec2b965ecb3d10d1ba154c6525591d1
 L
@@ -137,7 +117,5 @@ P
  src/Day22/FunctionalExample.java,c\2\c27cf7db1b4603b6e1147fcecc3e0ef5372f5403
 N
 src/Day22/AnyonomousClass.java,7\5\75b3a193ec1a2da6059c62342e6134343697cc10
-J
-src/Day22/JdbcExample.java,d\b\dbea66387fbe9c65999d7120fa0dfb10b82513b4
 M
 src/Day22/StreamsExample.java,9\2\9244e3de7b3007a0f145531ecf4f1682710db819
